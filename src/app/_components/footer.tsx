@@ -50,8 +50,7 @@ export default function Footer() {
           >
             <Image
               src={logo}
-              height={64}
-              className="h-16"
+              className="h-20 w-auto"
               alt="Logo Pizza Shopping"
             />
           </Link>
