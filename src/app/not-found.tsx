@@ -17,7 +17,7 @@ export default function Error404() {
           <Link href="/">
             <Button
               type="button"
-              className="bg-criarte-secundary-700 hover:bg-criarte-secundary"
+              className="bg-pizza-secondary-700 text-pizza-background hover:bg-pizza-secondary"
             >
               VOLTAR
             </Button>
