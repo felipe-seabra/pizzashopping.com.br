@@ -14,7 +14,7 @@ export default function HomePage() {
   useEffect(() => {
     const bgImage = new Image()
     bgImage.src =
-      'https://bkzzcslgcddqtunfwogg.supabase.co/storage/v1/object/public/images/background.webp'
+      'https://jpeiowradalgdwmfenul.supabase.co/storage/v1/object/public/portfolio/background.webp'
     bgImage.onload = () => {
       setBackgroundLoaded(true)
     }
@@ -23,7 +23,9 @@ export default function HomePage() {
   return !isBackgroundLoaded ? (
     <LoadingHomePage />
   ) : (
-    <div className={`flex h-screen w-screen items-center bg-pizza-background`}>
+    <div
+      className={`bg-criarte-background flex h-screen w-screen items-center bg-[url('https://jpeiowradalgdwmfenul.supabase.co/storage/v1/object/public/portfolio/background.webp')] bg-cover bg-center bg-no-repeat`}
+    >
       <section className="container flex h-screen items-center md:px-[10%]">
         <div className="max-w-[600px]">
           <h1 className="font-pizza-font text-6xl font-bold leading-loose text-pizza-title drop-shadow-md md:text-8xl">
