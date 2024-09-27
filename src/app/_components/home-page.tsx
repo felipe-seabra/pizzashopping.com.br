@@ -32,7 +32,7 @@ export default function HomePage() {
             Pizza Shopping
           </h1>
           <h3 className="font-pizza-font text-4xl font-bold text-pizza-secondary drop-shadow-md md:mt-1 md:text-6xl">
-            Pré Assada
+            Pré-assada
           </h3>
           <p className="my-6 text-lg text-pizza-text">
             Proporcionamos a experiência da finalização das nossas pizzas no
