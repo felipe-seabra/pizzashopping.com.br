@@ -57,7 +57,7 @@ export default function Header(): JSX.Element {
                 <div className="self-center">
                   <Link href="/">
                     <Image
-                      className="h-16 w-auto"
+                      className="h-20 w-auto"
                       src={logo}
                       alt="Logo Pizza Shopping"
                     />
@@ -93,8 +93,6 @@ export default function Header(): JSX.Element {
                 <Link
                   href={item.href}
                   key={item.name}
-                  target={item.name === 'AJUDA' ? '_blank' : ''}
-                  rel={item.name === 'AJUDA' ? 'noopener noreferrer' : ''}
                 >
                   <Disclosure.Button
                     className={Utils.classNames(

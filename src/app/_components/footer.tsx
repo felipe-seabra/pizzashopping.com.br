@@ -29,7 +29,7 @@ export default function Footer() {
 
   return location === '/' || location.startsWith('/login') ? (
     <footer className="absolute bottom-0 z-50 w-full pb-2">
-      <span className="text-pizza-secondary block text-center text-sm">
+      <span className="block text-center text-sm text-pizza-secondary">
         © {footer.date}{' '}
         <a href="/" className="hover:underline">
           {footer.company}{' '}
@@ -57,7 +57,7 @@ export default function Footer() {
           </Link>
 
           {/* Navbar */}
-          <ul className="text-pizza-text mb-6 flex flex-wrap items-center gap-6 text-sm font-medium sm:mb-0">
+          <ul className="mb-6 flex flex-wrap items-center gap-6 text-sm font-medium text-pizza-text sm:mb-0">
             <li>
               <Link href="/" className="hover:underline">
                 Home
@@ -83,11 +83,11 @@ export default function Footer() {
         {/* Navbar */}
 
         {/* Contato */}
-        <ul className="text-pizza-text mb-6 flex flex-wrap items-center gap-4 text-sm font-medium sm:mb-0 md:justify-end">
+        <ul className="mb-6 flex flex-wrap items-center gap-4 text-sm font-medium text-pizza-text sm:mb-0 md:justify-end">
           <li>
             <Link
               href={linkPhone}
-              className="hover:text-pizza-secondary flex items-center justify-center gap-2"
+              className="flex items-center justify-center gap-2 hover:text-pizza-secondary"
             >
               <i className="bx bx-phone text-lg" /> (18) 3903-0553
             </Link>
@@ -95,7 +95,7 @@ export default function Footer() {
           <li>
             <Link
               href={linkEmail}
-              className="hover:text-pizza-secondary flex items-center justify-center gap-2"
+              className="flex items-center justify-center gap-2 hover:text-pizza-secondary"
             >
               <i className="bx bx-envelope text-lg" />{' '}
               contato@pizzashopping.com.br
@@ -107,14 +107,14 @@ export default function Footer() {
               target="_blank"
               className="flex items-center justify-center gap-2 hover:text-green-300"
             >
-              <i className="bx bxl-whatsapp text-lg" /> (18) 98102-9767
+              <i className="bx bxl-whatsapp text-lg" /> (18) 3903-0553
             </Link>
           </li>
         </ul>
         {/* Contato */}
 
         {/* Localização */}
-        <ul className="text-pizza-text mb-6 mt-6 flex flex-wrap items-center gap-4 text-sm font-medium sm:mb-0 md:justify-end">
+        <ul className="mb-6 mt-6 flex flex-wrap items-center gap-4 text-sm font-medium text-pizza-text sm:mb-0 md:justify-end">
           <li>
             <Link
               href={linkLocation}

@@ -1,13 +1,11 @@
 import Image from 'next/image'
 
-import { Skeleton } from '@/components/ui/skeleton'
-
 import { logo } from '@/images'
 
 export default function LoadingHomePage() {
   return (
-    <div className="bg-criarte-background text-criarte-text flex h-screen w-screen flex-col items-center justify-center">
-      <Skeleton>
+    <div className="flex h-screen w-screen flex-col items-center justify-center bg-pizza-background text-pizza-text">
+      <div className="animate-pulse rounded-md">
         <Image
           src={logo}
           alt="Logo"
@@ -15,8 +13,8 @@ export default function LoadingHomePage() {
           height={72}
           className="flex w-full animate-bounce items-center justify-center rounded-full"
         />
-      </Skeleton>
-      <div className="border-criarte-primary-900 w-20 rounded-lg border-2 shadow-lg blur-sm" />
+      </div>
+      <div className="w-20 rounded-lg border-2 border-pizza-primary-900 shadow-lg blur-sm" />
     </div>
   )
 }
