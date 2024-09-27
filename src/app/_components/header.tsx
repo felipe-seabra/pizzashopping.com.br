@@ -36,7 +36,7 @@ export default function Header(): JSX.Element {
                   : location.startsWith('/contato') ||
                     location.startsWith('/formulario')
                     ? 'absolute top-0 w-full pt-2'
-                    : 'bg-pizza-background fixed z-50 w-full pt-2',
+                    : 'bg-pizza-background fixed z-50 w-full pt-2', 'bg-pizza-background-500 z-50 shadow-lg'
           )}
         >
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">

@@ -46,7 +46,7 @@ export default function HomePage() {
                 Ver Cardápio
               </Button>
             </Link>
-            <Link href={linkWhatsapp}>
+            <Link href={linkWhatsapp} target="_blank">
               <Button
                 type="button"
                 className="relative inline-flex h-full w-40 items-center justify-center overflow-hidden border-2 border-pizza-secondary bg-transparent text-xl font-semibold leading-6 tracking-wide text-pizza-secondary transition-colors duration-500 hover:bg-pizza-secondary hover:text-pizza-primary group-hover:border-transparent group-hover:text-pizza-text"
