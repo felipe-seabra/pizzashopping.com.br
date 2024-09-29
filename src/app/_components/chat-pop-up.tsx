@@ -66,17 +66,18 @@ export function ChatPopUp() {
       )}
       {isOpen && (
         <>
-          <div className="mb-10 mr-3 h-10 w-10 rounded-full shadow-md">
+          <div className="mb-10 mr-3 h-12 w-12 rounded-full shadow-md">
             <Image
               src={logo}
               alt={COMPANY_NAME}
-              className="h-auto w-12 rounded-full border-2 border-green-500 bg-white"
+              className="h-auto w-14 rounded-full border-2 border-green-500 bg-pizza-primary"
             />
           </div>
           <div className="relative mb-10 max-w-60 rounded-xl bg-green-500 p-5 shadow-md">
             <div className="text-sm text-gray-50">
               <p className="my-2">
-                Nossa equipe está aqui para fazer o seu pedido.
+                Conte com nossa equipe para realizar o seu pedido com dedicação
+                e agilidade.
               </p>
             </div>
             <div className="absolute bottom-[-50px] left-0 w-60">
