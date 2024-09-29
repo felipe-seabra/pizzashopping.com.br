@@ -37,7 +37,7 @@ export default function HomePage() {
           <p className="my-6 text-lg text-pizza-text">
             Proporcionamos a experiência da finalização das nossas pizzas no
             conforto de sua casa. Desfrute de todos os nossos sabores,
-            quentinhos, do forno direto para a sua mesa
+            quentinhos, do forno direto para a sua mesa.
           </p>
           <div className="flex h-14 max-w-[345px] justify-between">
             <Link href="/cardapio">
