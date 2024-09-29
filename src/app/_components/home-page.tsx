@@ -43,7 +43,7 @@ export default function HomePage() {
             <Link href="/cardapio">
               <Button
                 type="button"
-                className="relative inline-flex h-full w-40 items-center justify-center overflow-hidden rounded-lg border-2 border-pizza-secondary bg-pizza-secondary text-xl font-semibold leading-6 tracking-wide text-pizza-primary transition-colors duration-500 hover:bg-pizza-secondary-700 hover:text-pizza-primary-400"
+                className="relative inline-flex h-full w-40 items-center justify-center overflow-hidden rounded-lg border-2 border-pizza-secondary bg-pizza-secondary-400 font-pizza-font text-2xl font-semibold leading-6 tracking-wide text-pizza-primary transition-colors duration-500 hover:bg-pizza-secondary-700 hover:text-pizza-primary-400"
               >
                 Ver Cardápio
               </Button>
@@ -51,7 +51,7 @@ export default function HomePage() {
             <Link href={linkWhatsapp} target="_blank">
               <Button
                 type="button"
-                className="relative inline-flex h-full w-40 items-center justify-center overflow-hidden border-2 border-pizza-secondary bg-transparent text-xl font-semibold leading-6 tracking-wide text-pizza-secondary transition-colors duration-500 hover:bg-pizza-secondary hover:text-pizza-primary group-hover:border-transparent group-hover:text-pizza-text"
+                className="relative inline-flex h-full w-40 items-center justify-center overflow-hidden border-2 border-pizza-secondary bg-transparent font-pizza-font text-2xl font-semibold leading-6 tracking-wide text-pizza-secondary transition-colors duration-500 hover:bg-pizza-secondary hover:text-pizza-primary group-hover:border-transparent group-hover:text-pizza-text"
               >
                 Peça Já
               </Button>

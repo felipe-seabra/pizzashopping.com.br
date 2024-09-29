@@ -14,10 +14,10 @@ export default function Error404() {
               PARECE QUE VOCÊ ESTÁ PERDIDO NO ESPAÇO!
             </p>
           </div>
-          <Link href="/">
+          <Link href="/" className="relative z-20 flex justify-center">
             <Button
               type="button"
-              className="bg-pizza-secondary-700 text-pizza-background hover:bg-pizza-secondary"
+              className="mt-16 h-10 w-24 bg-pizza-secondary-400 font-pizza-font text-2xl text-pizza-background hover:bg-pizza-secondary"
             >
               VOLTAR
             </Button>

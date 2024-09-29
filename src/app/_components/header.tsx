@@ -71,9 +71,9 @@ export default function Header(): JSX.Element {
                         href={item.href}
                         className={Utils.classNames(
                           item.href === location
-                            ? ' bg-pizza-secondary text-background font-bold'
-                            : 'bg-pizza-secondary-300 text-background hover:bg-pizza-secondary-700 hover:text-background font-medium',
-                          'm-auto flex w-24 justify-center gap-2 rounded-md p-2 text-lg font-pizza-font',
+                            ? ' bg-pizza-secondary text-background'
+                            : 'bg-pizza-secondary-300 text-background hover:bg-pizza-secondary-700 hover:text-background',
+                          'm-auto flex w-24 justify-center gap-2 rounded-md p-2 text-lg font-pizza-font font-medium',
                         )}
                         aria-current={
                           item.href === location ? 'page' : undefined
