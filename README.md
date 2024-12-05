@@ -45,31 +45,6 @@ Desenvolver um site completo para a pizzaria "Pizza Shopping" com as seguintes f
 
 ---
 
-## Valor
-- **Desenvolvimento do Site Completo**: R$2000,00 (valor fixo).
-
----
-
-## Manutenção Mensal (Opcional)
-- **Atualizações técnicas e de segurança**.
-- **Manutenção do servidor e backup de dados**.
-- **Correções de bugs e melhorias contínuas.**
-
-**Valor da manutenção mensal**: R$200,00.
-
----
-
-## Prazo de Entrega
-- Estimativa de **4 a 6 semanas** para a entrega completa do projeto, incluindo testes e ajustes finais.
-
----
-
-## Forma de Pagamento
-- 50% no início do projeto.
-- 50% na entrega final.
-
----
-
 ## Exemplo de Site Personalizado
 - Acesse um exemplo de site já criado com um design personalizado: [Pizza Shopping - Exemplo](https://pizzashoppingcombr.vercel.app/)
 
